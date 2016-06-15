@@ -4,9 +4,9 @@ var PUSH_TOKEN = process.env.SLACK_TIMESHEET_TOKEN;
 
 console.log('Starting scheduler');
 
-//var j = schedule.scheduleJob('42 * * * *', function(){
-//  console.log('The answer to life, the universe, and everything!');
-//});
+var j = schedule.scheduleJob('42 * * * *', function(){
+  console.log('The answer to life, the universe, and everything!');
+});
 
 
 function execute(req, res) {
