@@ -32,7 +32,3 @@ var j = schedule.scheduleJob('42 * * * * *', function(){
         }
     });
 });
- 
-
-
-exports.execute = execute;
