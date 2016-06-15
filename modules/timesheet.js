@@ -1,4 +1,5 @@
 
+var schedule = require('node-schedule'),
 PUSH_TOKEN = process.env.SLACK_TIMESHEET_TOKEN;
 
 console.log('Starting scheduler');
