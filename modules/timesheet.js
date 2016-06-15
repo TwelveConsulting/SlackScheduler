@@ -12,7 +12,7 @@ var j = schedule.scheduleJob('42 * * * * *', function(){
 
     
     var postData = {
-            "channel": "@gaspard:", 
+            "channel": "@gaspard", 
             "username": "james", 
             "text": "This is posted to #random and comes from a bot named webhookbot.", 
             "icon_emoji": ":ghost:"
