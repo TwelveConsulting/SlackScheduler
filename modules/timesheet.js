@@ -6,7 +6,7 @@ var request = require("request");
 
 console.log('Starting scheduler');
 
-var j = schedule.scheduleJob('42 * * * * *', function(){
+var j = schedule.scheduleJob('* * 18 * * 1-5', function(){
     
     console.log('The answer to life, the universe, and everything!');
 
@@ -14,7 +14,7 @@ var j = schedule.scheduleJob('42 * * * * *', function(){
     var postData = {
             "channel": "@gaspard", 
             "username": "james", 
-            "text": "This is posted to #random and comes from a bot named webhookbot.", 
+            "text": "Time to get home !", 
             "icon_emoji": ":ghost:"
         };
 
